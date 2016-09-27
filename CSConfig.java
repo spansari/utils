@@ -1,4 +1,3 @@
-package com.mst.csi.util;
 
 import java.io.File;
 import java.io.FileInputStream;
