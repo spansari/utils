@@ -1,5 +1,3 @@
-package com.macys.mst.wms.atlas.common.utils;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
