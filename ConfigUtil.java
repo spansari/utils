@@ -1,4 +1,3 @@
-package com.macys.mst.wms.atlas.common.utils;
 
 import static java.nio.file.StandardWatchEventKinds.ENTRY_CREATE;
 import static java.nio.file.StandardWatchEventKinds.ENTRY_DELETE;
@@ -37,8 +36,10 @@ public enum ConfigUtil implements Runnable {
     }
 
     private void init() {
-	load(ATLAS_CONFIG, this.configFile);
-	//new Thread(ConfigUtil.config).start();
+	    //Start without Watcher
+	//load(ATLAS_CONFIG, this.configFile);
+	//Start with Watcher
+	  new Thread(ConfigUtil.config).start();
     }
 
     private void load(String propFileName, Properties configFile) {
