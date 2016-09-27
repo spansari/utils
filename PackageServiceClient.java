@@ -1,5 +1,3 @@
-package com.macys.mst.wms.atlas.common.rest.clients;
-
 
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.WebTarget;
